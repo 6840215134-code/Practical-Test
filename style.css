@@ -1,0 +1,16 @@
+<style>
+    body {
+        background-color: #fdf2f2;
+        font-family: 'Tahoma', sans-serif;
+        text-align: center;
+        padding-top: 50px;
+    }
+    img {
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    ul {
+        display: inline-block; 
+        text-align: left;
+    }
+</style>
