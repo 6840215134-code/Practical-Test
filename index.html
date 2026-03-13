@@ -2,7 +2,9 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าเว็บแนะนำช่อง YouTube ของฉัน</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -22,12 +24,23 @@
     <p>
         ติดตามช่องของผมได้ที่: 
         <a href="https://www.youtube.com/@maz-r2b" target="_blank">คลิกเพื่อไปยัง YouTube</a>
-    </section>
+    </p>
 
-    <!-- ส่วนท้าย -->
+    <hr>
+    <h3>ส่วนทดลองระบบ</h3>
+    <button onclick="showWelcome()">แสดงข้อความต้อนรับ</button>
+    
+    <div style="margin-top: 15px;">
+        <input type="text" id="userInput" placeholder="กรอกชื่อของคุณ">
+        <button onclick="sayHello()">ทักทาย</button>
+        <p id="greetingResult"></p>
+    </div>
+
     <footer>
         <p>© 2026 My Profile Website</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
